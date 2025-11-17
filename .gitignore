@@ -1,0 +1,51 @@
+# Arduino IDE
+*.hex
+*.eep
+*.elf
+*.map
+*.lst
+*.lss
+*.sym
+*.d
+*.o
+*.a
+
+# Build directories
+build/
+.build/
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arduino IDE preferences
+preferences.txt
+hardware/
+libraries/
+tools/
+
+# Log files
+*.log
+
+# Test and simulation files
+*.sim
+*.test
